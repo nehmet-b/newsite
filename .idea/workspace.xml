@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ad9ffec-e6c2-4c4e-bebf-8986864df57c" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1vZOKLKwo0LuuPZ0Vpw6qzrtNnT" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>Dockerfile issues</id>
+          </State>
+          <State>
+            <id>Error handlingPHP</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Probable bugsPHP</id>
+          </State>
+          <State>
+            <id>Type compatibilityPHP</id>
+          </State>
+          <State>
+            <id>docker-compose</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpUnhandledExceptionInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="functions&#9;FILE&#9;file://C:/OSPanel/domains/localhost/newsite/includes/functions.php&#10;func&#9;FILE&#9;file://C:/OSPanel/domains/localhost/newsite/includes/functions.php&#10;connect&#9;FILE&#9;file://C:/OSPanel/domains/localhost/newsite/includes/connect.php&#10;style&#9;FILE&#9;file://C:/OSPanel/domains/localhost/newsite/style.css&#10;for&#9;FILE&#9;file://C:/OSPanel/domains/localhost/newsite/forgotpassword.php" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../slimapp/freeCodeGram" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\localhost\newsite\includes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="signin_user.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newsite/includes/signin_user.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.signin_user.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ad9ffec-e6c2-4c4e-bebf-8986864df57c" name="Default" comment="" />
+      <created>1582023245190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582023245190</updated>
+      <workItem from="1582023255473" duration="9750000" />
+      <workItem from="1582129380700" duration="11813000" />
+      <workItem from="1582216367899" duration="6775000" />
+      <workItem from="1582270620848" duration="4221000" />
+      <workItem from="1582309227613" duration="5373000" />
+      <workItem from="1582315668199" duration="4086000" />
+      <workItem from="1582320276806" duration="1748000" />
+      <workItem from="1582369684408" duration="3723000" />
+      <workItem from="1582386624190" duration="4257000" />
+      <workItem from="1582444383267" duration="12850000" />
+      <workItem from="1582621670330" duration="7633000" />
+      <workItem from="1582652286924" duration="6649000" />
+      <workItem from="1582713641638" duration="9976000" />
+      <workItem from="1582729066523" duration="1871000" />
+      <workItem from="1582731150329" duration="21000" />
+      <workItem from="1582794029435" duration="6059000" />
+      <workItem from="1582823642625" duration="10256000" />
+      <workItem from="1582891453640" duration="11675000" />
+      <workItem from="1582909560524" duration="40000" />
+      <workItem from="1582961804720" duration="217000" />
+      <workItem from="1582993806907" duration="10491000" />
+      <workItem from="1583007369238" duration="120000" />
+      <workItem from="1583007725377" duration="212000" />
+      <workItem from="1583341164309" duration="9406000" />
+      <workItem from="1583396742168" duration="9838000" />
+      <workItem from="1583664824776" duration="193000" />
+      <workItem from="1583699141366" duration="46000" />
+      <workItem from="1583950865634" duration="1486000" />
+      <workItem from="1584029313624" duration="14080000" />
+      <workItem from="1584102844486" duration="6508000" />
+      <workItem from="1584273145293" duration="52000" />
+      <workItem from="1584273723285" duration="608000" />
+      <workItem from="1585142678818" duration="199000" />
+      <workItem from="1585147310689" duration="18000" />
+      <workItem from="1585896177979" duration="4337000" />
+      <workItem from="1585905301439" duration="63000" />
+      <workItem from="1586934242206" duration="2838000" />
+      <workItem from="1586953582455" duration="1109000" />
+      <workItem from="1626766156615" duration="9997000" />
+      <workItem from="1626804116515" duration="3974000" />
+      <workItem from="1627481371576" duration="1485000" />
+      <workItem from="1627733701990" duration="8000000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="435" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626803911526">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="435" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1626803911526" />
+    <state x="501" y="92" key="NewPhpClassDialog" timestamp="1626768736540">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="501" y="92" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1626768736540" />
+    <state x="92" y="92" width="1182" height="554" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1627743859546">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1627743859546" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1626766335309">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1626766335309" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1626770619033">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1626770619033" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>Test this</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+</project>
