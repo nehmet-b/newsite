@@ -2,16 +2,12 @@
 require_once 'connect.php';
 require_once 'functions.php';
 require_once 'authentication.php';
-session_start();
 
-$user_checkbox = false;
+session_start();
 
 $user_name = clearStringField($_POST['user_name']);
 
 $user_password = clearStringField(preg_match("/[0-9]/", $_POST['user_password']));
-
-if(isset($_POST['user_checkbox']))
-    $user_checkbox = $_POST['user_checkbox'];
 
 if(!empty($user_name && $user_password)){
     $select_user = "SELECT user_id, user_name, user_password FROM users";
@@ -21,12 +17,10 @@ if(!empty($user_name && $user_password)){
     for($i = 0; $i < count($row); $i++){
         if($user_name === $row[$i]['user_name'] && password_verify($user_password, $row[$i]['user_password'])){
             $user_id = $row[$i]['user_id'];
-            if($user_checkbox === 'checked'){
-                setcookie('user_id', $user_id, time() + 3600 * 24, '/');
-                setcookie('user_name', $user_name, time() + 3600 * 24, '/');
-            }
+
             $_SESSION['user_id'] = $user_id;
             $_SESSION['user_name'] = $user_name;
+
             header('Location: ../index.php?signin=done&id=' . $row[$i]['user_id']);
         } elseif ($user_name !== $row[$i]['user_name'] || !password_verify($user_password, $row[$i]['user_password'])){
             unset($_SESSION['user_id']);

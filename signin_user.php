@@ -40,8 +40,6 @@
         <input type="text" name="user_name" id="name" class="form-style" /><br />
         <label for="password">Password</label>
         <input type="password" name="user_password" id="password" class="form-style" /><br />
-        <input type="checkbox" name="user_checkbox" id="checkbox" value="checked"/>
-        <span>Remember Me</span>
         <a href="forgotpassword.php">Forgot Password?</a>
         <a href="create_user.php">Registration</a>
         <button type="submit" class="button">Sign In</button>

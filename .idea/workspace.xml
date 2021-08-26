@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ad9ffec-e6c2-4c4e-bebf-8986864df57c" name="Default" comment="" />
+    <list default="true" id="5ad9ffec-e6c2-4c4e-bebf-8986864df57c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/signin_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/signin_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signin_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/signin_user.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +15,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vZOKLKwo0LuuPZ0Vpw6qzrtNnT" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -57,10 +66,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="functions&#9;FILE&#9;file://C:/OSPanel/domains/localhost/newsite/includes/functions.php&#10;func&#9;FILE&#9;file://C:/OSPanel/domains/localhost/newsite/includes/functions.php&#10;connect&#9;FILE&#9;file://C:/OSPanel/domains/localhost/newsite/includes/connect.php&#10;style&#9;FILE&#9;file://C:/OSPanel/domains/localhost/newsite/style.css&#10;for&#9;FILE&#9;file://C:/OSPanel/domains/localhost/newsite/forgotpassword.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../slimapp/freeCodeGram" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="SQL Dialects" />
@@ -134,6 +145,7 @@
       <workItem from="1626804116515" duration="3974000" />
       <workItem from="1627481371576" duration="1485000" />
       <workItem from="1627733701990" duration="8000000" />
+      <workItem from="1629998380133" duration="6512000" />
     </task>
     <servers />
   </component>
@@ -147,7 +159,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="435" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626803911526">
