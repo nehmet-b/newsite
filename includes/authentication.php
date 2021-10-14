@@ -1,9 +1,8 @@
 <?php
 require_once 'connect.php';
 require_once '../signin_user.php';
-$user_name = clearStringField($_POST['user_name']);
 
-$connect = mysqli_connect(HOST, USER, PASS, DB);
+$user_name = clearStringField($_POST['user_name']);
 
 $select_user = "SELECT user_name FROM users";
 $query = mysqli_query($connect, $select_user);

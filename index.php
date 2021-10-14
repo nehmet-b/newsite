@@ -7,10 +7,13 @@ session_set_cookie_params(3600);
 
 // ready to go
 session_start();
-    if(!empty($_GET['id'])) {
-        $_SESSION['user_id'] = $_GET['id'];
-    }
+if(!empty($_GET['id'])) {
+    $_SESSION['user_id'] = $_GET['id'];
+}
 ?>
+
+<?php //require_once "connect.php";?><!-- // Connection for Search Field-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -31,9 +34,6 @@ session_start();
             <?php if(isset($_SESSION['user_id'])):?>
                 <?='Welcome ' . $_SESSION['user_name'] . '!!!';?>
                 <?='<a href="includes/logout.php">Logout</a>';?>
-            <?php elseif(isset($_COOKIE['user_id'])):?>
-                <?='Welcome ' . $_COOKIE['user_name'] . '!!!';?>
-                <?='<a href="includes/logout.php">Logout</a>';?>
             <?php else: ?>
                 <?='<a href="signin_user.php" class="link">Sign In</a>';?>
             <?php endif;?>
@@ -41,8 +41,8 @@ session_start();
             </div>
       </div>
       <div class="search-wrapper">
-        <form action="">
-          <input type="text" name="search" />
+        <form action="index.php" method="POST">
+          <input type="text" name="search" placeholder="Search"/>
           <button type="submit" class="button">Search</button>
         </form>
       </div>
@@ -58,49 +58,13 @@ session_start();
     </nav>
     <article>
       <section>
-        <h2>Heading 2</h2>
-        <figure>
-          <img src="picture.jpg" alt="" width="352" height="352" />
-        </figure>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-          lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-          viverra maecenas accumsan lacus vel facilisis.
-        </p>
+        <?php require_once "articles/article_1.php";?>
       </section>
       <section>
-        <h2>Heading 2</h2>
-        <figure>
-          <img src="picture.jpg" alt="" width="352" height="352" />
-        </figure>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-          lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-          viverra maecenas accumsan lacus vel facilisis.
-        </p>
+        <?php require_once "articles/article_2.php";?>
       </section>
       <section>
-        <h2>Heading 2</h2>
-        <figure>
-          <img src="picture.jpg" alt="" width="352" height="352" />
-        </figure>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-          lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-          viverra maecenas accumsan lacus vel facilisis.
-        </p>
+        <?php require_once "articles/article_3.php";?>
       </section>
 
       <div class="pagination">
@@ -127,7 +91,7 @@ session_start();
           <li><a href="">Label</a></li>
         </ul>
       </div>
-      <div class="copy"><span>Copyright</span> &copy; 2020</div>
+      <div class="copy"><span>Copyright</span> &copy; <?=date('Y');?></div>
     </footer>
   </body>
 </html>
