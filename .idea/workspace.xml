@@ -20,23 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ad9ffec-e6c2-4c4e-bebf-8986864df57c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/722528b3-c6bb-4c1e-a915-188b1cc03b5f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/722528b3-c6bb-4c1e-a915-188b1cc03b5f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/newsite.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/authentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/authentication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/create_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/create_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/signin_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/signin_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsite.sql" beforeDir="false" afterPath="$PROJECT_DIR$/newsite.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,18 +185,13 @@
       <workItem from="1630841364742" duration="6023000" />
       <workItem from="1631352512953" duration="759000" />
       <workItem from="1634234448892" duration="1041000" />
-      <workItem from="1634236333628" duration="11195000" />
+      <workItem from="1634236333628" duration="11657000" />
+      <workItem from="1634577281727" duration="14339000" />
+      <workItem from="1634746401893" duration="1611000" />
+      <workItem from="1634751937912" duration="14245000" />
+      <workItem from="1634771330167" duration="8469000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
@@ -230,10 +213,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="263" y="24" key="#CLI_Interpreters/0.0.1366.738@0.0.1366.738" timestamp="1634240444861" />
+    <state x="275" y="0" width="816" height="738" key="#Intentions" timestamp="1634767374726">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="0" width="816" height="738" key="#Intentions/0.0.1366.738@0.0.1366.738" timestamp="1634767374726" />
     <state x="390" y="12" key="#PHP" timestamp="1634240783479">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="390" y="12" key="#PHP/0.0.1366.738@0.0.1366.738" timestamp="1634240783479" />
+    <state x="59" y="210" key="#SQL_Dialects" timestamp="1634587064617">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="59" y="210" key="#SQL_Dialects/0.0.1366.738@0.0.1366.738" timestamp="1634587064617" />
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634240710694">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -254,38 +245,38 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1634240687989" />
-    <state width="1323" height="227" key="GridCell.Tab.0.bottom" timestamp="1634240977774">
+    <state width="1323" height="227" key="GridCell.Tab.0.bottom" timestamp="1634249371372">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1634240977774" />
-    <state width="1323" height="227" key="GridCell.Tab.0.center" timestamp="1634240977773">
+    <state width="1323" height="227" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1634249371372" />
+    <state width="1323" height="227" key="GridCell.Tab.0.center" timestamp="1634249371371">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1634240977773" />
-    <state width="1323" height="227" key="GridCell.Tab.0.left" timestamp="1634240977773">
+    <state width="1323" height="227" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1634249371371" />
+    <state width="1323" height="227" key="GridCell.Tab.0.left" timestamp="1634249371371">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1634240977773" />
-    <state width="1323" height="227" key="GridCell.Tab.0.right" timestamp="1634240977773">
+    <state width="1323" height="227" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1634249371371" />
+    <state width="1323" height="227" key="GridCell.Tab.0.right" timestamp="1634249371372">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1634240977773" />
-    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1634240977774">
+    <state width="1323" height="227" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1634249371372" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1634249371372">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1634240977774" />
-    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1634240977774">
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1634249371372" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1634249371372">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1634240977774" />
-    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1634240977774">
+    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1634249371372" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1634249371372">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1634240977774" />
-    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1634240977774">
+    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1634249371372" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1634249371372">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1634240977774" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1634249371372" />
     <state x="501" y="92" key="NewPhpClassDialog" timestamp="1626768736540">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -306,13 +297,13 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="492" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1634242455054" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1626766335309">
+    <state x="339" y="165" key="run.anything.popup" timestamp="1634578313414">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1626766335309" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1630843418063">
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1634578313414" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1634757956472">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1630843418063" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1634757956472" />
   </component>
 </project>

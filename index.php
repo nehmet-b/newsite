@@ -12,6 +12,13 @@ if(!empty($_GET['id'])) {
 }
 ?>
 
+<?php
+require_once "includes/connect.php";
+require_once "includes/functions.php";
+
+$articles = getAllArticles($connect);
+?>
+
 <?php //require_once "connect.php";?><!-- // Connection for Search Field-->
 
 <!DOCTYPE html>
@@ -57,15 +64,17 @@ if(!empty($_GET['id'])) {
       </ul>
     </nav>
     <article>
-      <section>
-        <?php require_once "articles/article_1.php";?>
-      </section>
-      <section>
-        <?php require_once "articles/article_2.php";?>
-      </section>
-      <section>
-        <?php require_once "articles/article_3.php";?>
-      </section>
+        <?php foreach ($articles as $article):?>
+            <section>
+                <h2><?=$article['heading'];?></h2>
+                <figure>
+                    <img src="<?=$article['img_path'];?>" alt="" width="352" height="352" />
+                </figure>
+                <p>
+                    <?=$article['text'];?>
+                </p>
+            </section>
+        <?php endforeach;?>
 
       <div class="pagination">
         <ul>

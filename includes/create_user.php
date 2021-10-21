@@ -29,4 +29,5 @@ header('Location: ../index.php');
 
 // Authorization and Authentication difference
 // if(isset($_GET['submit'])){}
+// mysqli_insert_id()
 
