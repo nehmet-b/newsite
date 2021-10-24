@@ -23,6 +23,7 @@ if(!empty($user_name && $user_surname && $user_password && $user_email && $user_
     $_SESSION['user_name'] = $user_name;
     header('Location: ../index.php?account=done&id=' . mysqli_insert_id($connect));
     mysqli_close($connect);
+    exit;
 }
 header('Location: ../index.php');
 

@@ -7,6 +7,7 @@ session_set_cookie_params(3600);
 
 // ready to go
 session_start();
+
 if(!empty($_GET['id'])) {
     $_SESSION['user_id'] = $_GET['id'];
 }
